@@ -1,0 +1,106 @@
+body {
+    color: #fff;
+    background: #17181c;
+    font: 300 1em 'Fira Sans', sans-serif;
+    -webkit-box-pack: center;
+            justify-content: center;
+    align-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+  }
+
+.topper {
+  position: fixed;
+  left: 42,5%;
+  top: 25%;
+  width: 15%;
+  text-align: center;
+}
+
+ h1 {
+   color: rgb(209, 244, 255);
+ }
+
+.footer {
+   position: fixed;
+   left: 42,5%;
+   bottom: 1%;
+   width: 15%;
+   text-align: center;
+}
+
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+
+  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+
+
+
+/* button effect */
+.raise:hover,
+.raise:focus {
+box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+-webkit-transform: translateY(-0.25em);
+        transform: translateY(-0.25em);
+} 
+
+
+
+/* Alle kleuren voor iedereen */
+.terug {
+--color: white;
+--hover: rgb(0, 255, 0);
+}
+
+.tazio {
+  --color: red;
+  --hover: blue;
+}
+
+.casey {
+  --color: hotpink;
+  --hover: red;
+}
+
+.beau {
+  --color: rgb(100, 100, 100);
+  --hover: red;
+}
+
+.marco {
+  --color: blue;
+  --hover: green;
+}
+
+.axel {
+  --color: pink;
+  --hover: gray;
+}
+
+.martijn {
+  --color: rgb(101, 203, 236);
+  --hover: red;
+}
+
+.gio {
+  --color: turquoise;
+  --hover: red;
+}

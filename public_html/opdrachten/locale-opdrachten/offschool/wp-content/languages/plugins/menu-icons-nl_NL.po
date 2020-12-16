@@ -1,0 +1,228 @@
+# Translation of Plugins - Menu Icons by ThemeIsle - Development (trunk) in Dutch
+# This file is distributed under the same license as the Plugins - Menu Icons by ThemeIsle - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-07 09:32:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Menu Icons by ThemeIsle - Development (trunk)\n"
+
+#. Author URI of the plugin
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the plugin
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Codeinwp/wp-menu-icons"
+msgstr "https://github.com/Codeinwp/wp-menu-icons"
+
+#: includes/settings.php:751
+msgid "the customizer"
+msgstr "de customizer"
+
+#: includes/settings.php:746
+msgid "Please note that the actual look of the icons on the front-end will also be affected by the style of your active theme. You can add your own CSS using %2$s or a plugin such as %3$s if you need to override it."
+msgstr "De uitstraling van de pictogrammen worden beïnvloed door de stijl van je actieve thema. Je kunt je eigen CSS code gebruiken met %2$s of een plugin zoals %3$s om dit aan te passen."
+
+#: menu-icons.php:152
+msgid "Looks like Menu Icons was installed via Composer. Please activate Icon Picker first."
+msgstr "Het lijkt er op dat “Menu Icons” geïnstalleerd werd via Composer. Activeer alsublieft eerst “Icon Picker”."
+
+#: includes/settings.php:742
+msgid "Change"
+msgstr "Wijzigen"
+
+#: includes/settings.php:585
+msgid "SVG Width"
+msgstr "SVG breedte"
+
+#: includes/picker.php:63
+msgid "Type"
+msgstr "Type"
+
+#. Description of the plugin
+msgid "Spice up your navigation menus with pretty icons, easily."
+msgstr "Fleur eenvoudig je navigatie menu's op met mooie pictogrammen."
+
+#. Plugin Name of the plugin
+msgid "Menu Icons"
+msgstr "Menu Icons"
+
+#: menu-icons.php:123
+msgid "Menu Icons: No registered icon types found."
+msgstr "Menu pictogram: Geen geregistreerde pictogram types gevonden."
+
+#: includes/settings.php:596
+msgid "Image Size"
+msgstr "Grootte afbeelding"
+
+#: includes/library/functions.php:82
+msgid "Full Size"
+msgstr "Volledige grootte"
+
+#: includes/library/functions.php:81
+msgid "Large"
+msgstr "Groot"
+
+#: includes/library/functions.php:80
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: includes/library/functions.php:79
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: includes/settings.php:567
+msgid "Sub"
+msgstr "Sub"
+
+#: includes/settings.php:563
+msgid "Bottom"
+msgstr "Onder"
+
+#: includes/settings.php:559
+msgid "Text Bottom"
+msgstr "Tekst beneden"
+
+#: includes/settings.php:555
+msgid "Baseline"
+msgstr "Basislijn"
+
+#: includes/settings.php:551
+msgid "Middle"
+msgstr "Midden"
+
+#: includes/settings.php:547
+msgid "Text Top"
+msgstr "Tekst boven"
+
+#: includes/settings.php:543
+msgid "Top"
+msgstr "Boven"
+
+#: includes/settings.php:539
+msgid "Super"
+msgstr "Super"
+
+#: includes/settings.php:534
+msgid "Vertical Align"
+msgstr "Verticaal uitlijnen"
+
+#: includes/settings.php:574
+msgid "Font Size"
+msgstr "Lettergrootte"
+
+#: includes/settings.php:425
+msgid "Save Settings"
+msgstr "Bewaar instellingen"
+
+#: includes/settings.php:416
+msgid "Reset"
+msgstr "Resetten"
+
+#: includes/settings.php:415
+msgid "Discard all changes and reset to default state"
+msgstr "Wijzigingen negeren en standaard instellingen herstellen"
+
+#: includes/settings.php:373 includes/settings.php:396
+msgid "Extensions"
+msgstr "Extensies"
+
+#: includes/settings.php:476
+msgid "\"%s\" menu settings"
+msgstr "\"%s\" menu instellingen"
+
+#: includes/settings.php:474
+msgid "Current Menu"
+msgstr "Huidig menu"
+
+#: includes/settings.php:458
+msgid "Icon Types"
+msgstr "Pictogram types"
+
+#: includes/settings.php:453
+msgid "Global settings"
+msgstr "Globale instellingen"
+
+#: includes/settings.php:452
+msgid "Global"
+msgstr "Globaal"
+
+#: includes/settings.php:527
+msgid "After"
+msgstr "Na"
+
+#: includes/settings.php:523
+msgid "Before"
+msgstr "Voor"
+
+#: includes/settings.php:518
+msgid "Position"
+msgstr "Positie"
+
+#: includes/settings.php:511
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/settings.php:507
+msgid "No"
+msgstr "Nee"
+
+#: includes/settings.php:502
+msgid "Hide Label"
+msgstr "Label verbergen"
+
+#: includes/settings.php:301
+msgid "Menu Icons Settings"
+msgstr "Menu Pictogram Instellingen"
+
+#: includes/settings.php:336
+msgid "<strong>Menu Icons Settings</strong> have been successfully reset."
+msgstr "<strong>Menu Pictogrammen Instellingen</strong> zijn met  succes gereset."
+
+#: includes/settings.php:335
+msgid "<strong>Menu Icons Settings</strong> have been successfully updated."
+msgstr "<strong>Menu Pictogram Instellingen</strong> zijn succesvol ge-update."
+
+#: includes/library/form-fields.php:152
+msgid "%1$s: Type %2$s is not supported, reverting to text."
+msgstr "%1$s: Type %2$s wordt niet ondersteund, teruggezet naar tekst."
+
+#: includes/picker.php:68 includes/picker.php:166
+msgid "Icon"
+msgstr "Icoon"
+
+#: includes/picker.php:118 includes/settings.php:741
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/picker.php:116
+msgid "Icon:"
+msgstr "Icoon:"
+
+#: includes/settings.php:744
+msgid "Preview"
+msgstr "Voorvertoning"
+
+#: includes/settings.php:743
+msgid "All"
+msgstr "Alles"
+
+#: includes/picker.php:117 includes/settings.php:740
+msgid "Select"
+msgstr "Selecteren"
+
+#: includes/settings.php:739
+msgid "Select Icon"
+msgstr "Selecteer icoon"
+
+#: includes/library/form-fields.php:528
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Selecteer &mdash;"

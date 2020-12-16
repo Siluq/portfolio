@@ -1,0 +1,130 @@
+.backButton {
+  position: fixed;
+  right: 11%;
+  top: 0%;
+  width: 15%;
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: black;
+}
+
+
+
+/* button effect */
+.raise:hover,
+.raise:focus {
+box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+-webkit-transform: translateY(-0.25em);
+      transform: translateY(-0.25em);
+} 
+
+
+
+/* Alle kleuren voor iedereen */
+.terug {
+--color: black;
+--hover: rgb(0, 255, 0);
+}
+
+
+#title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.icon {
+  font-size: .9rem;
+  display: inline-flex;
+  background: #D8D8D8;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+.icon span {
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+
+.html {
+  background: #F2C986;
+}
+.html span::after {
+  content: "html";
+}
+
+.php {
+  background: #BAD5F5;
+}
+.php span::after {
+  content: "php";
+}
+
+.css {
+  background: #E1C1C1;
+}
+.css span::after {
+  content: "css";
+}
+
+.ubuntu {
+  background: #97e5df;
+}
+.ubuntu span::after {
+  content: "Ubuntu";
+}
+
+.python {
+  background: #EADD86;
+}
+.python span::after {
+  content: "Python";
+}
+
+.django {
+  background: #AFEAE5;
+}
+.django span::after {
+  content: "Django";
+}
+
+.js {
+  background: #ecd643;
+}
+.js span::after {
+  content: "JS";
+}
+
+.image {
+  width: 920px;
+  height: 530;
+}
+
+.card a {
+  padding-right: 15px;
+}
+
+.github {
+  color: #739150;
+}
+
+.status {
+  color: #7699C2;
+}

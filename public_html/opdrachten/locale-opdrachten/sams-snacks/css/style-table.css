@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    font-family: arial;
+    color: black;
+}
+
+.kop td {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #c9c9c9;
+    color: black;
+    font-weight: bold;
+}
+
+.blauw {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #399ac7;
+    color: black;
+}
+
+.clean {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#scores {
+    text-align: center;
+    color: black;
+}

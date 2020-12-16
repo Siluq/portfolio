@@ -1,0 +1,15 @@
+.afbeeldingenblok {
+    width: 500px;
+}
+
+img.vergroting {
+    max-height: 500px;
+}
+
+.thumbnails {
+    display: flexbox;
+}
+
+img.thumb {
+    width: 30%;
+}
